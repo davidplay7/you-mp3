@@ -1,17 +1,24 @@
 {
   "name": "you-mp3",
   "version": "1.0.0",
-  "main": "server.js",
+  "description": "YouTube Audio Downloader",
+  "main": "index.js",
   "scripts": {
-    "build": "express build --output public"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "youtube",
+    "audio",
+    "downloader"
+  ],
+  "author": "Seu Nome",
+  "license": "MIT",
   "dependencies": {
-    "express": "^4.18.2",
-    "fs": "^0.0.1-security",
-    "ytdl-core": "^4.11.5"
+    "express": "^4.17.2",
+    "ytdl-core": "^4.4.1"
   },
-  "keywords": [],
-  "description": ""
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
 }
