@@ -2,3 +2,5 @@
 *.mp3
 *.part
 *.webm
+node_modules
+package-lock.json
